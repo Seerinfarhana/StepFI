@@ -1,0 +1,701 @@
+[
+ {
+  "id": "edu_diploma",
+  "name": "Diploma and skill course loan",
+  "segment": "student",
+  "summary": "Pays tuition and exam fees for diploma and skill courses.",
+  "user_types": [
+   "student"
+  ],
+  "study_levels": [
+   "diploma"
+  ],
+  "min_age": 18,
+  "max_age": 30,
+  "area": "any",
+  "max_amount_inr": 300000,
+  "rate_range_pct": "9.5 to 12.5",
+  "joint_applicant": true,
+  "eligibility": [
+   "Indian citizen aged 18 to 30",
+   "Admission to a recognised institute",
+   "A parent or guardian with regular income as joint applicant"
+  ],
+  "terms": [
+   "Loan up to ₹3,00,000",
+   "Repayment begins 6 months after the course ends",
+   "Tenure up to 7 years",
+   "No collateral below the bank limit"
+  ],
+  "documents": [
+   "Admission letter",
+   "Fee structure",
+   "Aadhaar",
+   "Passport photos",
+   "Joint applicant income proof"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "edu_ug",
+  "name": "Education loan for undergraduate courses",
+  "segment": "student",
+  "summary": "Covers fees, hostel, books and equipment for a degree course.",
+  "user_types": [
+   "student"
+  ],
+  "study_levels": [
+   "undergraduate"
+  ],
+  "min_age": 18,
+  "max_age": 30,
+  "area": "any",
+  "max_amount_inr": 1500000,
+  "rate_range_pct": "8.5 to 11.5",
+  "joint_applicant": true,
+  "eligibility": [
+   "Indian citizen aged 18 to 30",
+   "Admission to a recognised college or university",
+   "Joint applicant with regular income"
+  ],
+  "terms": [
+   "Loan up to ₹15,00,000",
+   "Repayment begins 12 months after the course ends",
+   "Tenure up to 12 years",
+   "Collateral may be needed above ₹7,50,000"
+  ],
+  "documents": [
+   "Admission letter",
+   "Fee structure and expense estimate",
+   "Previous marksheets",
+   "Aadhaar and PAN",
+   "Joint applicant income proof"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "edu_pg",
+  "name": "Education loan for postgraduate courses",
+  "segment": "student",
+  "summary": "Funds a master's or professional postgraduate programme.",
+  "user_types": [
+   "student"
+  ],
+  "study_levels": [
+   "postgraduate"
+  ],
+  "min_age": 20,
+  "max_age": 35,
+  "area": "any",
+  "max_amount_inr": 3000000,
+  "rate_range_pct": "9.0 to 12.0",
+  "joint_applicant": true,
+  "eligibility": [
+   "Indian citizen aged 20 to 35",
+   "Graduation completed and postgraduate admission confirmed",
+   "Joint applicant with regular income"
+  ],
+  "terms": [
+   "Loan up to ₹30,00,000",
+   "Repayment begins 12 months after the course ends",
+   "Tenure up to 15 years",
+   "Collateral usually needed above ₹7,50,000"
+  ],
+  "documents": [
+   "Admission letter",
+   "Degree marksheets",
+   "Fee structure",
+   "Aadhaar and PAN",
+   "Joint applicant income proof"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "personal",
+  "name": "Personal loan",
+  "segment": "adult",
+  "summary": "Unsecured loan for medical, travel, wedding or other personal needs.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 58,
+  "area": "any",
+  "max_amount_inr": 1000000,
+  "rate_range_pct": "11.0 to 16.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Age 21 to 58",
+   "Salaried or self employed with at least 1 year of income proof",
+   "Good repayment history"
+  ],
+  "terms": [
+   "Loan up to ₹10,00,000",
+   "Tenure 1 to 5 years",
+   "Processing fee of about 1 to 2 percent",
+   "Prepayment charges may apply"
+  ],
+  "documents": [
+   "Salary slips or income proof",
+   "Bank statements for 6 months",
+   "Aadhaar and PAN"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "home",
+  "name": "Home loan",
+  "segment": "adult",
+  "summary": "Buy, build or complete a house or flat.",
+  "user_types": [
+   "working_adult"
+  ],
+  "study_levels": [],
+  "min_age": 23,
+  "max_age": 60,
+  "area": "any",
+  "max_amount_inr": 7500000,
+  "rate_range_pct": "8.3 to 9.8",
+  "joint_applicant": false,
+  "eligibility": [
+   "Age 23 to 60",
+   "Stable income and good repayment history",
+   "Property with clear legal papers"
+  ],
+  "terms": [
+   "Loan up to ₹75,00,000",
+   "Tenure up to 30 years",
+   "The bank usually funds up to 80 percent of the property value",
+   "Interest may be floating, so your EMI can change"
+  ],
+  "documents": [
+   "Income proof",
+   "Property papers",
+   "Aadhaar and PAN",
+   "Bank statements for 6 months"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "home_improve",
+  "name": "Home improvement loan",
+  "segment": "adult",
+  "summary": "Repairs, painting and renovation of a house you own.",
+  "user_types": [
+   "working_adult"
+  ],
+  "study_levels": [],
+  "min_age": 23,
+  "max_age": 60,
+  "area": "any",
+  "max_amount_inr": 1000000,
+  "rate_range_pct": "9.5 to 13.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "You own the house",
+   "Age 23 to 60",
+   "Regular income"
+  ],
+  "terms": [
+   "Loan up to ₹10,00,000",
+   "Tenure up to 10 years",
+   "Payment may go directly to the contractor"
+  ],
+  "documents": [
+   "Ownership proof",
+   "Cost estimate",
+   "Income proof",
+   "Aadhaar and PAN"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "auto",
+  "name": "Two wheeler and car loan",
+  "segment": "adult",
+  "summary": "Buy a new or used two wheeler or car.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 60,
+  "area": "any",
+  "max_amount_inr": 1200000,
+  "rate_range_pct": "9.0 to 14.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Age 21 to 60",
+   "Regular income",
+   "Quotation from a dealer"
+  ],
+  "terms": [
+   "Loan up to ₹12,00,000",
+   "Tenure up to 7 years",
+   "The vehicle is held as security until the loan is repaid",
+   "Down payment of 10 to 20 percent"
+  ],
+  "documents": [
+   "Income proof",
+   "Dealer quotation",
+   "Aadhaar and PAN",
+   "Address proof"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "gold",
+  "name": "Gold loan",
+  "segment": "adult",
+  "summary": "Quick loan against gold ornaments, repaid in months.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 18,
+  "max_age": 75,
+  "area": "any",
+  "max_amount_inr": 500000,
+  "rate_range_pct": "9.0 to 13.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Age 18 to 75",
+   "Own gold ornaments of accepted purity"
+  ],
+  "terms": [
+   "Loan up to ₹5,00,000",
+   "Tenure 3 to 24 months",
+   "The bank values the gold and lends a share of its value",
+   "Late payment can lead to auction of the gold"
+  ],
+  "documents": [
+   "Gold ornaments for valuation",
+   "Aadhaar",
+   "PAN or Form 60"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "overdraft",
+  "name": "Overdraft facility",
+  "segment": "adult",
+  "summary": "Withdraw more than your balance up to a limit, pay interest only on what you use.",
+  "user_types": [
+   "working_adult"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 60,
+  "area": "any",
+  "max_amount_inr": 300000,
+  "rate_range_pct": "10.0 to 15.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Salary account for at least 6 months",
+   "Age 21 to 60"
+  ],
+  "terms": [
+   "Limit up to ₹3,00,000",
+   "Interest is charged only on the amount used",
+   "Limit is reviewed every year"
+  ],
+  "documents": [
+   "Salary account history",
+   "Aadhaar and PAN"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "senior_fd_loan",
+  "name": "Loan against fixed deposit",
+  "segment": "senior",
+  "summary": "Borrow against your fixed deposit without breaking it.",
+  "user_types": [
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 60,
+  "max_age": 90,
+  "area": "any",
+  "max_amount_inr": 800000,
+  "rate_range_pct": "1.0 to 2.0 above the deposit rate",
+  "joint_applicant": false,
+  "eligibility": [
+   "Age 60 or above",
+   "Fixed deposit held with the same bank"
+  ],
+  "terms": [
+   "Loan up to about 90 percent of the deposit",
+   "The deposit stays earning interest",
+   "Tenure cannot go beyond the deposit maturity"
+  ],
+  "documents": [
+   "Fixed deposit receipt",
+   "Aadhaar and PAN"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "micro_business",
+  "name": "Small business loan",
+  "segment": "business",
+  "summary": "Working funds for a small shop, workshop or home business.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 65,
+  "area": "any",
+  "max_amount_inr": 500000,
+  "rate_range_pct": "10.5 to 15.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Business running for at least 1 year",
+   "Age 21 to 65"
+  ],
+  "terms": [
+   "Loan up to ₹5,00,000",
+   "Tenure up to 5 years",
+   "Monthly repayments",
+   "Collateral free up to the bank limit"
+  ],
+  "documents": [
+   "Business proof",
+   "Bank statements for 6 months",
+   "Aadhaar and PAN",
+   "Income tax returns if filed"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "working_capital",
+  "name": "Working capital loan",
+  "segment": "business",
+  "summary": "Revolving credit for stock, salaries and day to day costs.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 65,
+  "area": "any",
+  "max_amount_inr": 5000000,
+  "rate_range_pct": "10.0 to 14.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "Business running for at least 2 years",
+   "Regular business turnover"
+  ],
+  "terms": [
+   "Limit up to ₹50,00,000",
+   "Interest only on the amount used",
+   "Limit renewed every year",
+   "Security such as stock or property may be needed"
+  ],
+  "documents": [
+   "Business registration",
+   "Bank statements for 12 months",
+   "GST returns if registered",
+   "Financial statements"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "equipment",
+  "name": "Equipment finance",
+  "segment": "business",
+  "summary": "Buy machinery or equipment for your business.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 65,
+  "area": "any",
+  "max_amount_inr": 2500000,
+  "rate_range_pct": "10.5 to 14.5",
+  "joint_applicant": false,
+  "eligibility": [
+   "Business running for at least 1 year",
+   "A quotation for the equipment"
+  ],
+  "terms": [
+   "Loan up to ₹25,00,000",
+   "Tenure up to 7 years",
+   "The equipment is held as security"
+  ],
+  "documents": [
+   "Equipment quotation",
+   "Business proof",
+   "Bank statements for 6 months",
+   "Aadhaar and PAN"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "crop",
+  "name": "Crop loan",
+  "segment": "agriculture",
+  "summary": "Short term credit for seeds, fertiliser and labour for a crop season.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 18,
+  "max_age": 70,
+  "area": "rural",
+  "max_amount_inr": 300000,
+  "rate_range_pct": "7.0 to 9.5",
+  "joint_applicant": false,
+  "eligibility": [
+   "You farm your own land or lease land",
+   "Rural resident"
+  ],
+  "terms": [
+   "Loan up to ₹3,00,000",
+   "Repay after the harvest, usually within 12 months",
+   "Government interest support may apply, ask your branch"
+  ],
+  "documents": [
+   "Land records",
+   "Crop details",
+   "Aadhaar",
+   "Passport photos"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "tractor",
+  "name": "Tractor and farm equipment loan",
+  "segment": "agriculture",
+  "summary": "Buy a tractor, pump set or other farm machinery.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 21,
+  "max_age": 65,
+  "area": "rural",
+  "max_amount_inr": 1200000,
+  "rate_range_pct": "9.0 to 12.5",
+  "joint_applicant": false,
+  "eligibility": [
+   "You farm your own land or lease land",
+   "Rural resident",
+   "Regular farm income"
+  ],
+  "terms": [
+   "Loan up to ₹12,00,000",
+   "Tenure up to 7 years",
+   "Repayment can follow harvest cycles",
+   "The machine is held as security"
+  ],
+  "documents": [
+   "Land records",
+   "Dealer quotation",
+   "Aadhaar and PAN",
+   "Bank statements for 12 months"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "dairy",
+  "name": "Dairy and allied activities loan",
+  "segment": "agriculture",
+  "summary": "Buy animals, build a shed or set up milk collection.",
+  "user_types": [
+   "working_adult",
+   "person_with_disability",
+   "senior_citizen"
+  ],
+  "study_levels": [],
+  "min_age": 18,
+  "max_age": 65,
+  "area": "rural",
+  "max_amount_inr": 500000,
+  "rate_range_pct": "8.0 to 11.5",
+  "joint_applicant": false,
+  "eligibility": [
+   "Rural resident",
+   "Experience or training in dairy or animal care"
+  ],
+  "terms": [
+   "Loan up to ₹5,00,000",
+   "Tenure up to 5 years",
+   "Insurance on animals is advised"
+  ],
+  "documents": [
+   "Project cost estimate",
+   "Aadhaar",
+   "Address proof",
+   "Land or shed proof"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ },
+ {
+  "id": "access",
+  "name": "Accessibility support loan",
+  "segment": "disability",
+  "summary": "Buys assistive devices or adapts a home or workplace.",
+  "user_types": [
+   "person_with_disability"
+  ],
+  "study_levels": [],
+  "min_age": 18,
+  "max_age": 65,
+  "area": "any",
+  "max_amount_inr": 400000,
+  "rate_range_pct": "6.0 to 9.0",
+  "joint_applicant": false,
+  "eligibility": [
+   "A disability certificate",
+   "Age 18 to 65"
+  ],
+  "terms": [
+   "Loan up to ₹4,00,000",
+   "Tenure up to 5 years",
+   "Illustrative product for this prototype, not a real scheme"
+  ],
+  "documents": [
+   "Disability certificate",
+   "Device quotation",
+   "Aadhaar"
+  ],
+  "how_to_apply": [
+   "Check your match in StepFI and read the eligibility",
+   "Collect the documents listed",
+   "Apply online in the bank app or at the branch",
+   "The bank verifies your documents and may call you",
+   "After sanction, sign the agreement and receive the funds"
+  ],
+  "note": "Sample values for this prototype. The bank decides eligibility and terms."
+ }
+]

@@ -1,0 +1,140 @@
+[
+ {
+  "code": "en",
+  "native": "English",
+  "name": "English",
+  "sarvam": "en-IN"
+ },
+ {
+  "code": "hi",
+  "native": "हिन्दी",
+  "name": "Hindi",
+  "sarvam": "hi-IN"
+ },
+ {
+  "code": "bn",
+  "native": "বাংলা",
+  "name": "Bengali",
+  "sarvam": "bn-IN"
+ },
+ {
+  "code": "mr",
+  "native": "मराठी",
+  "name": "Marathi",
+  "sarvam": "mr-IN"
+ },
+ {
+  "code": "te",
+  "native": "తెలుగు",
+  "name": "Telugu",
+  "sarvam": "te-IN"
+ },
+ {
+  "code": "ta",
+  "native": "தமிழ்",
+  "name": "Tamil",
+  "sarvam": "ta-IN"
+ },
+ {
+  "code": "gu",
+  "native": "ગુજરાતી",
+  "name": "Gujarati",
+  "sarvam": "gu-IN"
+ },
+ {
+  "code": "ur",
+  "native": "اردو",
+  "name": "Urdu",
+  "sarvam": "ur-IN"
+ },
+ {
+  "code": "kn",
+  "native": "ಕನ್ನಡ",
+  "name": "Kannada",
+  "sarvam": "kn-IN"
+ },
+ {
+  "code": "or",
+  "native": "ଓଡ଼ିଆ",
+  "name": "Odia",
+  "sarvam": "od-IN"
+ },
+ {
+  "code": "ml",
+  "native": "മലയാളം",
+  "name": "Malayalam",
+  "sarvam": "ml-IN"
+ },
+ {
+  "code": "pa",
+  "native": "ਪੰਜਾਬੀ",
+  "name": "Punjabi",
+  "sarvam": "pa-IN"
+ },
+ {
+  "code": "as",
+  "native": "অসমীয়া",
+  "name": "Assamese",
+  "sarvam": "as-IN"
+ },
+ {
+  "code": "mai",
+  "native": "मैथिली",
+  "name": "Maithili",
+  "sarvam": "mai-IN"
+ },
+ {
+  "code": "sat",
+  "native": "ᱥᱟᱱᱛᱟᱲᱤ",
+  "name": "Santali",
+  "sarvam": "sat-IN"
+ },
+ {
+  "code": "ks",
+  "native": "کٲشُر",
+  "name": "Kashmiri",
+  "sarvam": "ks-IN"
+ },
+ {
+  "code": "ne",
+  "native": "नेपाली",
+  "name": "Nepali",
+  "sarvam": "ne-IN"
+ },
+ {
+  "code": "sd",
+  "native": "سنڌي",
+  "name": "Sindhi",
+  "sarvam": "sd-IN"
+ },
+ {
+  "code": "kok",
+  "native": "कोंकणी",
+  "name": "Konkani",
+  "sarvam": "kok-IN"
+ },
+ {
+  "code": "doi",
+  "native": "डोगरी",
+  "name": "Dogri",
+  "sarvam": "doi-IN"
+ },
+ {
+  "code": "mni",
+  "native": "ꯃꯦꯇꯦꯢ",
+  "name": "Manipuri",
+  "sarvam": "mni-IN"
+ },
+ {
+  "code": "brx",
+  "native": "बड़ो",
+  "name": "Bodo",
+  "sarvam": "brx-IN"
+ },
+ {
+  "code": "sa",
+  "native": "संस्कृतम्",
+  "name": "Sanskrit",
+  "sarvam": "sa-IN"
+ }
+]

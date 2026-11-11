@@ -1,0 +1,30 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { SignOut, FilePdf, DownloadSimple } from "@phosphor-icons/react";
+import { api, saveBlob } from "../api"; import { useT } from "../i18n"; import { useAuth } from "../auth"; import { useData } from "../hooks";
+import { Logo, LanguageMenu, Reveal, Skeleton, ErrorNote } from "../ui";
+export default function Admin() {
+  const { t, langs } = useT(), { signOut, user } = useAuth(), nav = useNavigate(), [tab, setTab] = useState("overview"), [err, setErr] = useState(null);
+  const st = useData("/admin/stats"), pend = useData("/admin/pending"), s = st.data;
+  const tl = (p, n) => { const v = t(p + n); return v === p + n ? String(n).replaceAll("_", " ") : v; };
+  const decide = async (id, approve) => { try { await api.post(`/admin/pending/${id}`, { approve }); pend.reload(); st.reload(); } catch (e) { setErr(e); } };
+  const dl = async (path, name) => { try { saveBlob(await api.blob(path), name); } catch (e) { setErr(e); } };
+  const Bars = ({ rows, label, color = "bg-brand" }) => { const max = Math.max(1, ...rows.map(r => r.n)); return <ul className="flex flex-col gap-3">{rows.map(r => <li key={r.name}><p className="caption-2 text-mute">{label(r.name)} · {r.n}</p><div className={"h-2 rounded-lg " + color} style={{ width: r.n / max * 100 + "%" }} /></li>)}</ul>; };
+  const Kpi = ({ k, v }) => <Reveal className="card"><p className="caption-2 text-mute">{t(k)}</p><p className="heading-4">{v}</p></Reveal>;
+  const empty = <p className="body-6 text-mute">{t("adm.empty")}</p>;
+  const maxDay = s ? Math.max(1, ...s.per_day.map(d => d.likes + d.dislikes)) : 1;
+  return <><header className="border-b border-line bg-card"><nav aria-label="Main" className="mx-auto flex max-w-6xl flex-wrap items-center gap-4 px-4 py-3"><Logo to="/admin" /><span className="tag caption-1">{t("adm.title")}</span>
+    <ul className="flex flex-wrap gap-1">{["overview", "approvals", "reports"].map(k => <li key={k}><button className={"btn button-sm " + (tab === k ? "bg-mint text-brand" : "text-mute hover:bg-page")} aria-current={tab === k ? "page" : undefined} onClick={() => setTab(k)}>{t("nav." + k)}{k === "approvals" && s?.pending_admins ? ` (${s.pending_admins})` : ""}</button></li>)}</ul>
+    <div className="ms-auto flex items-center gap-2"><LanguageMenu /><button className="btn btn-ghost button-sm" onClick={() => { signOut(); nav("/"); }}><SignOut size={20} aria-hidden="true" />{t("nav.logout")}</button></div></nav></header>
+    <main id="main" className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8"><h1 className="heading-4">{t("adm.title")}</h1><ErrorNote error={err || st.error} />
+      {tab === "overview" && (!s ? <Skeleton className="h-48 w-full" /> : <>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"><Kpi k="adm.customers" v={s.customers} /><Kpi k="adm.chats" v={s.chats} /><Kpi k="adm.questions" v={s.questions} /><Kpi k="adm.rated" v={s.rated} /><Kpi k="adm.satisfaction" v={s.satisfaction === null ? "—" : s.satisfaction + "%"} /><Kpi k="adm.forms" v={s.forms} /></div>
+        <div className="grid gap-6 md:grid-cols-2">
+          <Reveal className="card flex flex-col gap-4"><h2 className="title-1">{t("adm.perday")}</h2>{s.per_day.length ? <><div className="flex h-40 items-end gap-2" role="img" aria-label={t("adm.perday")}>{s.per_day.map(d => <div key={d.d} className="flex h-full flex-1 flex-col justify-end"><div className="bg-peach" style={{ height: d.dislikes / maxDay * 100 + "%" }} title={`${t("adm.disliked")}: ${d.dislikes}`} /><div className="bg-brand" style={{ height: d.likes / maxDay * 100 + "%" }} title={`${t("adm.liked")}: ${d.likes}`} /></div>)}</div><p className="caption-2 text-mute">{s.per_day[0].d} → {s.per_day.at(-1).d} · {t("adm.liked")} / {t("adm.disliked")}</p></> : empty}</Reveal>
+          <Reveal className="card flex flex-col gap-4"><h2 className="title-1">{t("adm.topics")}</h2>{s.topics.length ? <Bars rows={s.topics} label={n => tl("cat.", n)} /> : empty}</Reveal>
+          <Reveal className="card flex flex-col gap-4"><h2 className="title-1">{t("adm.reasons")}</h2>{s.reasons.length ? <Bars rows={s.reasons} label={n => t("reason." + n)} color="bg-[#C98B5E]" /> : empty}</Reveal>
+          <Reveal className="card flex flex-col gap-4"><h2 className="title-1">{t("adm.languages")}</h2>{s.languages.length ? <Bars rows={s.languages} label={n => langs.find(l => l.code === n)?.native || n} /> : empty}</Reveal></div></>)}
+      {tab === "approvals" && <Reveal className="card flex flex-col gap-4"><h2 className="title-1">{t("adm.pending")}</h2>{pend.loading && !pend.data ? <Skeleton className="h-16 w-full" /> : pend.data?.length ? <ul className="flex flex-col gap-4">{pend.data.map(p => <li key={p.id} className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-line p-4"><div><p className="body-1">{p.name}</p><p className="caption-2 text-mute">{p.email} · {p.profile.employee_id} · {p.profile.bank}, {p.profile.branch} · {p.profile.job_title}</p></div><div className="flex gap-2"><button className="btn btn-primary button-sm" onClick={() => decide(p.id, true)}>{t("adm.approve")}</button><button className="btn btn-ghost button-sm" onClick={() => decide(p.id, false)}>{t("adm.reject")}</button></div></li>)}</ul> : <p className="body-6 text-mute">{t("adm.nopending")}</p>}</Reveal>}
+      {tab === "reports" && <div className="grid gap-6 md:grid-cols-2">{[["adm.rcust", "adm.rcustSub", "/admin/reports/customers.pdf", "customer_summary.pdf"], ["adm.rfeed", "adm.rfeedSub", "/admin/reports/feedback.pdf", "feedback_summary.pdf"]].map(([a, b, path, name]) => <Reveal key={a} className="card flex flex-col items-start gap-3"><FilePdf size={32} className="text-brand" aria-hidden="true" /><h2 className="title-1">{t(a)}</h2><p className="body-6 text-mute">{t(b)}</p><button className="btn btn-primary button-md" onClick={() => dl(path, name)}><DownloadSimple size={20} aria-hidden="true" />{t("adm.download")}</button></Reveal>)}</div>}
+    </main></>;
+}

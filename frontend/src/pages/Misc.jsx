@@ -1,0 +1,4 @@
+import { Link } from "react-router-dom";
+import { useT } from "../i18n"; import { Logo } from "../ui";
+export function NotFound() { const { t } = useT(); return <main id="main" className="mx-auto flex max-w-md flex-col items-start gap-4 px-4 py-24"><Logo /><h1 className="heading-3">{t("notfound.title")}</h1><p className="body-3 text-mute">{t("notfound.text")}</p><Link to="/" className="btn btn-primary button-md">{t("notfound.back")}</Link></main>; }
+export function Legal({ kind }) { const { t } = useT(); return <main id="main" className="mx-auto flex max-w-2xl flex-col gap-4 px-4 py-16"><Logo /><h1 className="heading-4">{t(`legal.${kind}title`)}</h1><p className="body-3 text-mute">{t(`legal.${kind}text`)}</p><Link to="/" className="btn btn-ghost button-md self-start">{t("common.back")}</Link></main>; }

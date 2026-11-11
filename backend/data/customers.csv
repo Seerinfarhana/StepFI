@@ -1,0 +1,101 @@
+customer_id,full_name,gender,age,user_type,account_type,study_level,disability_type,area,district,state,preferred_language,simple_mode,email,phone,purpose,kyc_status,pan_linked,mobile_linked_to_aadhaar,registered_on,role
+CUST001,Veena Hegde,F,18,student,regular_savings,diploma,,rural,Mangaluru,Karnataka,kn,yes,veena.hegde12@example.com,9313500298,Find a loan,verified,no,yes,2026-07-15,customer
+CUST002,Anitha Murugesan,F,64,senior_citizen,senior_citizen,,,urban,Tirunelveli,Tamil Nadu,ta,yes,anitha.murugesan12@example.com,9469319644,Block or manage a card,verified,no,yes,2026-04-23,customer
+CUST003,Aarti Das,F,22,student,student,postgraduate,,urban,Pune,Maharashtra,en,no,aarti.das99@example.com,9208449460,Find a loan,update_due,yes,yes,2026-06-08,customer
+CUST004,Naveen Rao,M,65,senior_citizen,fixed_deposit,,,rural,Mangaluru,Karnataka,kn,yes,naveen.rao49@example.com,9838908273,Get help with forms,update_due,no,yes,2026-06-18,customer
+CUST005,Lakshmi Nadar,F,44,working_adult,salary,,,urban,Trichy,Tamil Nadu,ta,no,lakshmi.nadar19@example.com,9702764446,Get help with forms,verified,no,yes,2026-06-21,customer
+CUST006,Aditya Iyer,M,33,working_adult,current,,,urban,Bengaluru,Karnataka,en,no,aditya.iyer77@example.com,9602564736,Check balance and statements,verified,no,yes,2026-10-02,customer
+CUST007,Padma Rao,F,51,working_adult,salary,,,rural,Guntur,Andhra Pradesh,te,no,padma.rao98@example.com,9771410971,Find a loan,verified,yes,yes,2026-08-04,customer
+CUST008,Kiran Joshi,M,50,person_with_disability,specialised,,visual,urban,Chennai,Tamil Nadu,en,yes,kiran.joshi31@example.com,9885879795,Find a loan,update_due,yes,yes,2026-01-17,customer
+CUST009,Isha Das,F,23,student,student,postgraduate,,urban,Chennai,Tamil Nadu,en,no,isha.das57@example.com,9463016614,Find a loan,verified,yes,no,2026-02-12,customer
+CUST010,Senthil Raman,M,23,student,student,undergraduate,,rural,Erode,Tamil Nadu,ta,yes,senthil.raman32@example.com,9807577342,Find a loan,pending,yes,yes,2026-03-06,customer
+CUST011,Mahadev Patil,M,65,person_with_disability,recurring_deposit,,hearing,rural,Mysuru,Karnataka,kn,yes,mahadev.patil69@example.com,9399085574,Open a new account,verified,yes,yes,2026-03-19,customer
+CUST012,Karthik Nadar,M,65,senior_citizen,senior_citizen,,,rural,Thanjavur,Tamil Nadu,ta,yes,karthik.nadar8@example.com,9384759615,Learn about banking,verified,yes,yes,2026-08-11,customer
+CUST013,Srinivas Rao,M,66,senior_citizen,time_deposit,,,urban,Visakhapatnam,Andhra Pradesh,te,yes,srinivas.rao8@example.com,9727255918,Find a loan,verified,yes,yes,2025-10-17,customer
+CUST014,Sameer Mehta,M,22,student,student,undergraduate,,urban,Delhi,Delhi,en,no,sameer.mehta73@example.com,9869005091,Find a loan,verified,yes,yes,2026-02-09,customer
+CUST015,Rahul Patel,M,58,person_with_disability,specialised,,multiple,rural,Jaipur,Rajasthan,hi,yes,rahul.patel17@example.com,9496776692,Open a new account,pending,yes,yes,2026-05-09,customer
+CUST016,Sameer Das,M,69,senior_citizen,regular_savings,,,urban,Pune,Maharashtra,en,yes,sameer.das34@example.com,9694019365,Get help with forms,pending,yes,yes,2026-09-05,customer
+CUST017,Pushpa Gowda,F,24,person_with_disability,recurring_deposit,,locomotor,rural,Hubballi,Karnataka,kn,no,pushpa.gowda34@example.com,9857704655,Check balance and statements,verified,yes,yes,2026-08-13,customer
+CUST018,Nisha Das,F,33,working_adult,regular_savings,,,urban,Chennai,Tamil Nadu,en,no,nisha.das6@example.com,9816114302,Open a new account,verified,yes,yes,2026-05-04,customer
+CUST019,Ramesh Subramanian,M,20,student,regular_savings,diploma,,urban,Chennai,Tamil Nadu,ta,no,ramesh.subramanian21@example.com,9605399561,Find a loan,verified,yes,yes,2025-11-09,customer
+CUST020,Ramesh Krishnan,M,20,student,student,undergraduate,,rural,Virudhunagar,Tamil Nadu,ta,yes,ramesh.krishnan4@example.com,9385042337,Find a loan,pending,yes,yes,2026-09-05,customer
+CUST021,Madhavi Naidu,F,40,working_adult,salary,,,urban,Visakhapatnam,Andhra Pradesh,te,no,madhavi.naidu69@example.com,9891388192,Get help with forms,verified,yes,yes,2025-11-17,customer
+CUST022,Prashanth Shetty,M,76,senior_citizen,senior_citizen,,,rural,Mangaluru,Karnataka,kn,yes,prashanth.shetty90@example.com,9551450815,Open a new account,verified,yes,yes,2026-06-05,customer
+CUST023,Saranya Selvaraj,F,52,working_adult,current,,,urban,Madurai,Tamil Nadu,ta,no,saranya.selvaraj85@example.com,9779615069,Get help with forms,verified,no,yes,2026-09-21,customer
+CUST024,Arun Subramanian,M,67,senior_citizen,time_deposit,,,urban,Tirunelveli,Tamil Nadu,ta,yes,arun.subramanian59@example.com,9308773243,Check balance and statements,pending,yes,yes,2026-04-05,customer
+CUST025,Arjun Mehta,M,30,person_with_disability,salary,,speech,urban,Delhi,Delhi,en,yes,arjun.mehta16@example.com,9816806128,Learn about banking,verified,no,yes,2026-03-15,customer
+CUST026,Sravani Varma,F,49,person_with_disability,salary,,locomotor,urban,Guntur,Andhra Pradesh,te,no,sravani.varma67@example.com,9572309605,Update my details,verified,yes,yes,2026-02-28,customer
+CUST027,Mythili Pillai,F,21,student,student,undergraduate,,urban,Tenkasi,Tamil Nadu,ta,no,mythili.pillai27@example.com,9846812123,Block or manage a card,verified,yes,no,2026-04-02,customer
+CUST028,Soumya Kurup,F,66,person_with_disability,salary,,locomotor,rural,Thiruvananthapuram,Kerala,ml,yes,soumya.kurup35@example.com,9460916347,Learn about banking,verified,yes,yes,2026-03-25,customer
+CUST029,Aditya Khan,M,51,working_adult,salary,,,urban,Mumbai,Maharashtra,en,no,aditya.khan34@example.com,9450948014,Learn about banking,verified,yes,yes,2026-04-23,customer
+CUST030,Priya Raman,F,26,working_adult,recurring_deposit,,,urban,Coimbatore,Tamil Nadu,ta,no,priya.raman3@example.com,9608482316,Open a new account,verified,yes,no,2025-12-20,customer
+CUST031,Vignesh Murugesan,M,63,senior_citizen,fixed_deposit,,,urban,Erode,Tamil Nadu,ta,yes,vignesh.murugesan87@example.com,9312954978,Get help with forms,verified,yes,no,2026-04-25,customer
+CUST032,Manjunath Naik,M,73,senior_citizen,fixed_deposit,,,rural,Hubballi,Karnataka,kn,yes,manjunath.naik2@example.com,9565492204,Find a loan,pending,yes,yes,2026-04-02,customer
+CUST033,Chaitra Patil,F,78,senior_citizen,senior_citizen,,,urban,Bengaluru,Karnataka,kn,yes,chaitra.patil36@example.com,9711871397,Learn about banking,verified,no,yes,2026-03-18,customer
+CUST034,Rekha Gupta,F,41,working_adult,regular_savings,,,urban,Jaipur,Rajasthan,hi,no,rekha.gupta11@example.com,9696115913,Learn about banking,verified,yes,yes,2026-07-03,customer
+CUST035,Vasuki Kumar,F,71,senior_citizen,senior_citizen,,,rural,Thanjavur,Tamil Nadu,ta,yes,vasuki.kumar96@example.com,9587205269,Get help with forms,verified,yes,yes,2026-01-26,customer
+CUST036,Suresh Nadar,M,54,working_adult,salary,,,urban,Virudhunagar,Tamil Nadu,ta,no,suresh.nadar77@example.com,9308432166,Block or manage a card,update_due,yes,yes,2026-06-12,customer
+CUST037,Dinesh Murugesan,M,23,student,student,undergraduate,,urban,Chennai,Tamil Nadu,ta,no,dinesh.murugesan61@example.com,9371096600,Open a new account,verified,yes,yes,2026-03-03,customer
+CUST038,Shruthi Hegde,F,21,student,student,diploma,,rural,Belagavi,Karnataka,kn,yes,shruthi.hegde57@example.com,9766823010,Find a loan,pending,yes,no,2026-06-04,customer
+CUST039,Vignesh Subramanian,M,20,student,student,undergraduate,,urban,Trichy,Tamil Nadu,ta,no,vignesh.subramanian10@example.com,9771150922,Update my details,verified,no,yes,2025-11-17,customer
+CUST040,Aditya Mehta,M,69,person_with_disability,senior_citizen,,hearing,urban,Chennai,Tamil Nadu,en,yes,aditya.mehta57@example.com,9851333320,Update my details,verified,yes,yes,2026-09-01,customer
+CUST041,Janani Murugesan,F,25,working_adult,salary,,,urban,Erode,Tamil Nadu,ta,no,janani.murugesan76@example.com,9981994345,Get help with forms,update_due,yes,no,2026-10-24,customer
+CUST042,Aarti Kapoor,F,24,student,student,postgraduate,,urban,Pune,Maharashtra,en,no,aarti.kapoor43@example.com,9529982328,Update my details,verified,no,yes,2026-04-07,customer
+CUST043,Sameer Das,M,53,working_adult,regular_savings,,,urban,Chennai,Tamil Nadu,en,no,sameer.das80@example.com,9916033628,Learn about banking,verified,yes,yes,2025-10-12,customer
+CUST044,Sameer Das,M,39,working_adult,current,,,urban,Mumbai,Maharashtra,en,no,sameer.das71@example.com,9221827951,Block or manage a card,verified,yes,yes,2026-04-09,customer
+CUST045,Chaitra Hegde,F,53,working_adult,regular_savings,,,urban,Belagavi,Karnataka,kn,no,chaitra.hegde66@example.com,9174958005,Block or manage a card,pending,yes,yes,2025-10-17,customer
+CUST046,Remya Thomas,F,53,person_with_disability,regular_savings,,locomotor,urban,Thrissur,Kerala,ml,no,remya.thomas42@example.com,9713963047,Open a new account,update_due,yes,yes,2026-07-30,customer
+CUST047,Arjun Iyer,M,32,working_adult,regular_savings,,,urban,Mumbai,Maharashtra,en,no,arjun.iyer57@example.com,9116479358,Learn about banking,verified,yes,yes,2026-09-13,customer
+CUST048,Senthil Annamalai,M,72,senior_citizen,time_deposit,,,urban,Trichy,Tamil Nadu,ta,yes,senthil.annamalai70@example.com,9777703980,Open a new account,verified,yes,yes,2026-10-16,customer
+CUST049,Prashanth Shetty,M,21,student,student,postgraduate,,rural,Mysuru,Karnataka,kn,yes,prashanth.shetty53@example.com,9184791618,Find a loan,verified,no,yes,2026-01-18,customer
+CUST050,Sunita Patel,F,24,student,regular_savings,postgraduate,,urban,Patna,Bihar,hi,no,sunita.patel82@example.com,9313907621,Learn about banking,verified,yes,yes,2026-03-31,customer
+CUST051,Selvam Rajan,M,68,senior_citizen,senior_citizen,,,urban,Tenkasi,Tamil Nadu,ta,yes,selvam.rajan78@example.com,9932945529,Update my details,verified,yes,no,2025-10-18,customer
+CUST052,Prashanth Gowda,M,80,senior_citizen,fixed_deposit,,,rural,Mangaluru,Karnataka,kn,yes,prashanth.gowda5@example.com,9196779973,Open a new account,verified,yes,yes,2026-01-11,customer
+CUST053,Isha Joshi,F,54,working_adult,specialised,,,urban,Chennai,Tamil Nadu,en,no,isha.joshi15@example.com,9909763993,Open a new account,update_due,yes,yes,2026-03-09,customer
+CUST054,Madhavi Chowdary,F,47,working_adult,salary,,,urban,Hyderabad,Telangana,te,no,madhavi.chowdary80@example.com,9337691219,Check balance and statements,verified,yes,yes,2026-01-20,customer
+CUST055,Karthik Nadar,M,53,person_with_disability,regular_savings,,visual,urban,Virudhunagar,Tamil Nadu,ta,no,karthik.nadar96@example.com,9803217037,Learn about banking,verified,yes,yes,2025-10-27,customer
+CUST056,Pooja Mishra,F,53,person_with_disability,salary,,multiple,rural,Patna,Bihar,hi,yes,pooja.mishra16@example.com,9789024924,Open a new account,verified,no,yes,2026-03-16,customer
+CUST057,Mahesh Naidu,M,22,student,student,postgraduate,,urban,Guntur,Andhra Pradesh,te,no,mahesh.naidu19@example.com,9809805235,Find a loan,verified,yes,yes,2026-08-29,customer
+CUST058,Vignesh Rajan,M,21,student,student,undergraduate,,urban,Tirunelveli,Tamil Nadu,ta,no,vignesh.rajan58@example.com,9940983577,Find a loan,verified,no,yes,2026-02-19,customer
+CUST059,Ritu Verma,F,62,senior_citizen,senior_citizen,,,rural,Jaipur,Rajasthan,hi,yes,ritu.verma36@example.com,9864668242,Check balance and statements,verified,yes,yes,2025-12-19,customer
+CUST060,Ramesh Selvaraj,M,67,senior_citizen,senior_citizen,,,urban,Thanjavur,Tamil Nadu,ta,yes,ramesh.selvaraj54@example.com,9435569630,Learn about banking,verified,yes,yes,2025-10-26,customer
+CUST061,Sameer Khan,M,22,student,student,undergraduate,,urban,Chennai,Tamil Nadu,en,no,sameer.khan86@example.com,9905611583,Block or manage a card,verified,yes,yes,2026-09-02,customer
+CUST062,Karthik Krishnan,M,77,senior_citizen,senior_citizen,,,urban,Erode,Tamil Nadu,ta,yes,karthik.krishnan29@example.com,9978779150,Block or manage a card,pending,no,no,2026-03-29,customer
+CUST063,Anitha Krishnan,F,19,student,student,diploma,,rural,Tenkasi,Tamil Nadu,ta,yes,anitha.krishnan68@example.com,9497341481,Find a loan,verified,yes,yes,2026-07-16,customer
+CUST064,Vasuki Rajan,F,21,student,student,undergraduate,,urban,Salem,Tamil Nadu,ta,no,vasuki.rajan56@example.com,9665791188,Get help with forms,verified,yes,yes,2026-09-08,customer
+CUST065,Murugan Murugesan,M,39,person_with_disability,regular_savings,,visual,rural,Madurai,Tamil Nadu,ta,yes,murugan.murugesan91@example.com,9817311263,Block or manage a card,verified,yes,yes,2026-07-09,customer
+CUST066,Janani Rajan,F,50,working_adult,salary,,,urban,Salem,Tamil Nadu,ta,no,janani.rajan22@example.com,9488536370,Get help with forms,verified,yes,yes,2025-12-22,customer
+CUST067,Priya Krishnan,F,68,person_with_disability,salary,,visual,rural,Virudhunagar,Tamil Nadu,ta,yes,priya.krishnan25@example.com,9793039113,Block or manage a card,verified,yes,yes,2026-05-09,customer
+CUST068,Vignesh Selvaraj,M,74,senior_citizen,regular_savings,,,urban,Trichy,Tamil Nadu,ta,yes,vignesh.selvaraj88@example.com,9447042200,Check balance and statements,verified,yes,yes,2026-01-18,customer
+CUST069,Soumya Nair,F,43,working_adult,regular_savings,,,rural,Kozhikode,Kerala,ml,no,soumya.nair10@example.com,9196955134,Block or manage a card,pending,no,no,2025-12-08,customer
+CUST070,Soumya Kurup,F,31,person_with_disability,regular_savings,,hearing,urban,Kochi,Kerala,ml,no,soumya.kurup44@example.com,9285283722,Get help with forms,verified,yes,yes,2025-11-03,customer
+CUST071,Seema Mishra,F,62,person_with_disability,senior_citizen,,locomotor,urban,Lucknow,Uttar Pradesh,hi,yes,seema.mishra43@example.com,9405100495,Learn about banking,verified,yes,no,2026-09-16,customer
+CUST072,Isha Das,F,29,working_adult,salary,,,urban,Chennai,Tamil Nadu,en,no,isha.das17@example.com,9835958147,Get help with forms,verified,no,yes,2025-11-25,customer
+CUST073,Priya Nadar,F,23,student,regular_savings,postgraduate,,rural,Virudhunagar,Tamil Nadu,ta,no,priya.nadar68@example.com,9741288486,Block or manage a card,verified,yes,yes,2026-10-15,customer
+CUST074,Anju Thomas,F,21,student,student,undergraduate,,urban,Thrissur,Kerala,ml,no,anju.thomas30@example.com,9996696177,Block or manage a card,verified,yes,yes,2026-02-03,customer
+CUST075,Srinivas Goud,M,32,working_adult,fixed_deposit,,,rural,Warangal,Telangana,te,no,srinivas.goud71@example.com,9233871736,Check balance and statements,verified,yes,yes,2026-09-12,customer
+CUST076,Arjun Joshi,M,24,student,student,postgraduate,,urban,Mumbai,Maharashtra,en,no,arjun.joshi48@example.com,9797889971,Find a loan,verified,yes,yes,2026-07-12,customer
+CUST077,Chaitra Naik,F,18,student,student,diploma,,rural,Belagavi,Karnataka,kn,yes,chaitra.naik15@example.com,9550784243,Find a loan,verified,no,yes,2026-06-09,customer
+CUST078,Harish Naidu,M,69,senior_citizen,senior_citizen,,,urban,Vijayawada,Andhra Pradesh,te,yes,harish.naidu74@example.com,9191927283,Get help with forms,verified,no,yes,2026-04-04,customer
+CUST079,Padma Varma,F,20,student,student,undergraduate,,urban,Guntur,Andhra Pradesh,te,no,padma.varma31@example.com,9889401015,Find a loan,verified,yes,yes,2025-10-24,customer
+CUST080,Mythili Selvaraj,F,80,senior_citizen,senior_citizen,,,rural,Trichy,Tamil Nadu,ta,yes,mythili.selvaraj5@example.com,9314179101,Block or manage a card,verified,yes,yes,2026-06-06,customer
+CUST081,Rohit Mishra,M,23,student,student,postgraduate,,urban,Bhopal,Madhya Pradesh,hi,no,rohit.mishra52@example.com,9300593456,Find a loan,verified,yes,yes,2025-10-19,customer
+CUST082,Rohit Mishra,M,30,working_adult,salary,,,urban,Patna,Bihar,hi,no,rohit.mishra58@example.com,9840629322,Open a new account,verified,yes,yes,2025-12-30,customer
+CUST083,Venkat Varma,M,49,working_adult,regular_savings,,,urban,Vijayawada,Andhra Pradesh,te,no,venkat.varma4@example.com,9938927341,Get help with forms,pending,yes,yes,2026-08-22,customer
+CUST084,Sanjay Patel,M,42,person_with_disability,salary,,hearing,urban,Indore,Madhya Pradesh,hi,yes,sanjay.patel41@example.com,9127824235,Find a loan,verified,yes,yes,2025-12-06,customer
+CUST085,Jithin Pillai,M,82,senior_citizen,regular_savings,,,urban,Kochi,Kerala,ml,yes,jithin.pillai18@example.com,9577934499,Get help with forms,verified,yes,yes,2026-09-27,customer
+CUST086,Senthil Annamalai,M,19,student,student,undergraduate,,rural,Virudhunagar,Tamil Nadu,ta,yes,senthil.annamalai60@example.com,9527521016,Find a loan,verified,yes,yes,2026-01-25,customer
+CUST087,Tanvi Khan,F,76,senior_citizen,senior_citizen,,,urban,Delhi,Delhi,en,yes,tanvi.khan82@example.com,9564520346,Open a new account,verified,no,yes,2026-01-07,customer
+CUST088,Deepa Murugesan,F,62,senior_citizen,senior_citizen,,,urban,Virudhunagar,Tamil Nadu,ta,yes,deepa.murugesan36@example.com,9672817675,Check balance and statements,verified,yes,yes,2026-08-31,customer
+CUST089,Nandini Gowda,F,60,senior_citizen,senior_citizen,,,urban,Belagavi,Karnataka,kn,yes,nandini.gowda34@example.com,9547306651,Check balance and statements,verified,no,yes,2025-12-05,customer
+CUST090,Riya Kapoor,F,28,working_adult,current,,,urban,Bengaluru,Karnataka,en,no,riya.kapoor62@example.com,9254263081,Check balance and statements,verified,yes,yes,2026-03-11,customer
+CUST091,Padma Rao,F,52,working_adult,salary,,,rural,Guntur,Andhra Pradesh,te,no,padma.rao79@example.com,9271476207,Block or manage a card,verified,yes,no,2026-04-03,customer
+CUST092,Bhavani Reddy,F,29,working_adult,fixed_deposit,,,urban,Vijayawada,Andhra Pradesh,te,no,bhavani.reddy28@example.com,9402104065,Find a loan,verified,yes,no,2026-01-09,customer
+CUST093,Seema Mishra,F,21,person_with_disability,salary,,hearing,rural,Indore,Madhya Pradesh,hi,yes,seema.mishra50@example.com,9400347789,Check balance and statements,verified,no,no,2026-02-18,customer
+CUST094,Remya Menon,F,56,working_adult,regular_savings,,,urban,Kochi,Kerala,ml,no,remya.menon18@example.com,9657629251,Learn about banking,verified,yes,yes,2025-11-03,customer
+CUST095,Janani Krishnan,F,51,person_with_disability,regular_savings,,speech,urban,Chennai,Tamil Nadu,ta,no,janani.krishnan3@example.com,9547256709,Find a loan,verified,no,yes,2026-04-29,customer
+CUST096,Shibu Nair,M,78,senior_citizen,senior_citizen,,,rural,Kollam,Kerala,ml,yes,shibu.nair49@example.com,9133898577,Open a new account,pending,no,yes,2026-08-20,customer
+CUST097,Sunita Yadav,F,23,student,student,undergraduate,,rural,Jaipur,Rajasthan,hi,yes,sunita.yadav69@example.com,9874086851,Get help with forms,verified,yes,no,2026-05-12,customer
+CUST098,Divya Nadar,F,63,person_with_disability,regular_savings,,locomotor,urban,Chennai,Tamil Nadu,ta,yes,divya.nadar37@example.com,9507693523,Check balance and statements,verified,yes,yes,2026-09-02,customer
+CUST099,Mythili Selvaraj,F,32,person_with_disability,regular_savings,,visual,urban,Chennai,Tamil Nadu,ta,yes,mythili.selvaraj79@example.com,9154508960,Open a new account,verified,no,yes,2025-10-20,customer
+CUST100,Rahul Yadav,M,73,senior_citizen,fixed_deposit,,,urban,Bhopal,Madhya Pradesh,hi,yes,rahul.yadav62@example.com,9444851196,Update my details,verified,yes,yes,2025-12-05,customer

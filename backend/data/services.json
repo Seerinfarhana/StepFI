@@ -1,0 +1,458 @@
+[
+ {
+  "id": "open_savings",
+  "name": "Open a savings account",
+  "category": "accounts",
+  "channel": "online_video_kyc_or_branch",
+  "documents": [
+   "Aadhaar",
+   "PAN",
+   "Aadhaar-linked mobile"
+  ],
+  "steps": [
+   "Choose the account type",
+   "Verify Aadhaar with OTP",
+   "Complete video KYC",
+   "Add nominee and activate"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A savings account holds your money and pays interest.",
+  "how_it_works": "You apply online with Aadhaar and PAN, verify by OTP and video call, and the bank activates the account."
+ },
+ {
+  "id": "open_current",
+  "name": "Open a current account",
+  "category": "accounts",
+  "channel": "branch_or_online",
+  "documents": [
+   "PAN",
+   "Aadhaar",
+   "Business proof"
+  ],
+  "steps": [
+   "Choose the account type",
+   "Submit business documents",
+   "Complete KYC",
+   "Activate the account"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A current account suits businesses with many daily transactions.",
+  "how_it_works": "The bank checks your business documents and KYC before opening the account."
+ },
+ {
+  "id": "open_fd",
+  "name": "Open a fixed deposit",
+  "category": "accounts",
+  "channel": "online_or_branch",
+  "documents": [
+   "Existing account",
+   "PAN"
+  ],
+  "steps": [
+   "Choose amount and period",
+   "Choose payout option",
+   "Confirm with OTP"
+  ],
+  "risk": "medium",
+  "assistant_level": "act_mock",
+  "description": "A fixed deposit locks money for a fixed period at a set rate.",
+  "how_it_works": "You choose the amount and period, confirm with OTP, and the bank debits your account."
+ },
+ {
+  "id": "open_rd",
+  "name": "Start a recurring deposit",
+  "category": "accounts",
+  "channel": "online_or_branch",
+  "documents": [
+   "Existing account"
+  ],
+  "steps": [
+   "Choose monthly amount",
+   "Choose period",
+   "Set auto-debit and confirm"
+  ],
+  "risk": "medium",
+  "assistant_level": "act_mock",
+  "description": "A recurring deposit saves a fixed amount every month.",
+  "how_it_works": "You set a monthly amount and period. The bank debits it automatically each month."
+ },
+ {
+  "id": "block_card",
+  "name": "Block a lost or stolen card",
+  "category": "cards",
+  "channel": "online",
+  "documents": [
+   "Identity verification"
+  ],
+  "steps": [
+   "Choose the card",
+   "Choose the reason",
+   "Confirm",
+   "Receive confirmation and replacement timeline"
+  ],
+  "risk": "high",
+  "assistant_level": "act",
+  "description": "Blocking stops anyone from using a lost or stolen card.",
+  "how_it_works": "You tell the bank which card and why. The bank blocks it at once and informs the card networks."
+ },
+ {
+  "id": "request_card",
+  "name": "Request a new debit card",
+  "category": "cards",
+  "channel": "online_or_branch",
+  "documents": [
+   "Active account"
+  ],
+  "steps": [
+   "Choose card type",
+   "Confirm delivery address",
+   "Confirm request"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A debit card lets you withdraw cash and pay at shops and online.",
+  "how_it_works": "You request a card from your account. The bank prints it and posts it to your address."
+ },
+ {
+  "id": "credit_card",
+  "name": "Apply for a credit card",
+  "category": "cards",
+  "channel": "online_or_branch",
+  "documents": [
+   "PAN",
+   "Aadhaar",
+   "Income proof"
+  ],
+  "steps": [
+   "Check eligibility",
+   "Submit documents",
+   "Bank reviews the application"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A credit card lets you spend now and pay later within a limit.",
+  "how_it_works": "The bank checks your income and credit history, then decides the limit."
+ },
+ {
+  "id": "virtual_card",
+  "name": "Create a virtual card",
+  "category": "cards",
+  "channel": "online",
+  "documents": [
+   "Mobile banking login"
+  ],
+  "steps": [
+   "Open card controls",
+   "Create virtual card",
+   "Set limit"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A virtual card is a digital card number for safer online payments.",
+  "how_it_works": "You create it inside the bank app and can set a limit or delete it."
+ },
+ {
+  "id": "link_pan",
+  "name": "Link PAN to my bank account",
+  "category": "pan_kyc",
+  "channel": "online_or_branch",
+  "documents": [
+   "PAN card",
+   "Aadhaar-linked mobile"
+  ],
+  "steps": [
+   "Log in or visit the branch",
+   "Enter your PAN",
+   "Verify with OTP"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "Banks need your PAN on record for tax rules and refunds.",
+  "how_it_works": "You submit your PAN in the bank app or at the branch. The bank checks it and links it to your account."
+ },
+ {
+  "id": "apply_pan",
+  "name": "Apply for a new PAN card",
+  "category": "pan_kyc",
+  "channel": "government_portal",
+  "documents": [
+   "Aadhaar",
+   "Passport photo"
+  ],
+  "steps": [
+   "Go to the official NSDL or UTIITSL portal",
+   "Fill the application",
+   "Pay the fee and track the status"
+  ],
+  "risk": "low",
+  "assistant_level": "guide",
+  "description": "A new PAN card is issued by the government, not by the bank.",
+  "how_it_works": "You apply on the official NSDL or UTIITSL portal and track the status there."
+ },
+ {
+  "id": "correct_pan",
+  "name": "Correct details on my PAN card",
+  "category": "pan_kyc",
+  "channel": "government_portal",
+  "documents": [
+   "PAN card",
+   "Proof for the correction"
+  ],
+  "steps": [
+   "Go to the official PAN correction service",
+   "Submit the correction",
+   "Update the bank after the new card arrives"
+  ],
+  "risk": "low",
+  "assistant_level": "guide",
+  "description": "Corrections to the data on a PAN card are made through the government portal.",
+  "how_it_works": "You submit the correction with proof on the official portal. Tell your bank after the new card arrives."
+ },
+ {
+  "id": "update_address",
+  "name": "Change my address",
+  "category": "pan_kyc",
+  "channel": "online_or_branch",
+  "documents": [
+   "Address proof"
+  ],
+  "steps": [
+   "Choose update address",
+   "Verify with Aadhaar OTP or upload proof",
+   "Bank verifies and updates"
+  ],
+  "risk": "high",
+  "assistant_level": "guide",
+  "description": "The bank must hold your current address for statements and cards.",
+  "how_it_works": "You verify with Aadhaar OTP or upload address proof. The bank checks it and updates the record."
+ },
+ {
+  "id": "update_mobile",
+  "name": "Update my mobile number",
+  "category": "pan_kyc",
+  "channel": "branch_or_online",
+  "documents": [
+   "Identity proof"
+  ],
+  "steps": [
+   "Request the change",
+   "Verify identity",
+   "Confirm with OTP on the new number"
+  ],
+  "risk": "high",
+  "assistant_level": "guide",
+  "description": "Your mobile number receives OTPs and alerts, so it must be correct.",
+  "how_it_works": "You request the change and verify your identity. The bank confirms with an OTP on the new number."
+ },
+ {
+  "id": "update_dob",
+  "name": "Correct my date of birth",
+  "category": "pan_kyc",
+  "channel": "branch_often_needed",
+  "documents": [
+   "Age proof (self-attested copy)"
+  ],
+  "steps": [
+   "Request the correction",
+   "Submit the age proof",
+   "Bank verifies and updates"
+  ],
+  "risk": "high",
+  "assistant_level": "guide",
+  "description": "A wrong date of birth can block loans and pension work.",
+  "how_it_works": "You submit age proof and a request. The bank verifies it and corrects the record, often at the branch."
+ },
+ {
+  "id": "update_kyc",
+  "name": "Update my KYC details",
+  "category": "pan_kyc",
+  "channel": "online_or_branch",
+  "documents": [
+   "Valid ID and address proof"
+  ],
+  "steps": [
+   "Open KYC update",
+   "Review and change details",
+   "Upload documents and confirm with OTP"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "KYC keeps your identity and address details current as the rules require.",
+  "how_it_works": "You review your details, upload documents and confirm with OTP. The bank re checks them."
+ },
+ {
+  "id": "upi_setup",
+  "name": "Set up UPI",
+  "category": "payments",
+  "channel": "online",
+  "documents": [
+   "Registered mobile",
+   "Debit card"
+  ],
+  "steps": [
+   "Install a UPI app",
+   "Link your bank account",
+   "Set the UPI PIN"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "UPI sends money instantly using your mobile number or QR code.",
+  "how_it_works": "You install a UPI app, link your bank account with your debit card details, and set a UPI PIN."
+ },
+ {
+  "id": "fund_transfer",
+  "name": "Transfer money (NEFT, RTGS, IMPS)",
+  "category": "payments",
+  "channel": "online",
+  "documents": [
+   "Payee details"
+  ],
+  "steps": [
+   "Choose the method",
+   "Add or pick the payee",
+   "Confirm with OTP"
+  ],
+  "risk": "high",
+  "assistant_level": "act_mock",
+  "description": "NEFT, RTGS and IMPS move money between bank accounts.",
+  "how_it_works": "You add the payee, enter the amount and confirm with OTP. IMPS is instant, NEFT runs in batches and RTGS suits large amounts."
+ },
+ {
+  "id": "bill_pay",
+  "name": "Pay bills and recharge",
+  "category": "payments",
+  "channel": "online",
+  "documents": [
+   "Consumer number"
+  ],
+  "steps": [
+   "Choose the biller",
+   "Check the bill amount",
+   "Confirm and pay",
+   "Save the receipt"
+  ],
+  "risk": "medium",
+  "assistant_level": "act_mock",
+  "description": "Bill pay settles electricity, water, mobile and similar bills from your account.",
+  "how_it_works": "The bank fetches the bill from the biller, you confirm, and the amount is debited and sent to the biller."
+ },
+ {
+  "id": "loan_apply",
+  "name": "Apply for a loan",
+  "category": "loans",
+  "channel": "online_or_branch",
+  "documents": [
+   "Depends on the loan type"
+  ],
+  "steps": [
+   "Check eligibility",
+   "Prepare documents",
+   "Apply and track"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A loan application lets the bank check if you qualify for credit.",
+  "how_it_works": "You check eligibility, prepare documents and apply. The bank verifies and then sanctions or declines."
+ },
+ {
+  "id": "overdraft_info",
+  "name": "Understand overdraft",
+  "category": "loans",
+  "channel": "info",
+  "documents": [],
+  "steps": [
+   "Learn how the limit works",
+   "Check the interest and fees"
+  ],
+  "risk": "low",
+  "assistant_level": "explain",
+  "description": "An overdraft lets you go below zero up to a limit.",
+  "how_it_works": "The bank sets a limit on your account. You pay interest only on the amount you use."
+ },
+ {
+  "id": "locker",
+  "name": "Request a safe deposit locker",
+  "category": "digital_other",
+  "channel": "branch",
+  "documents": [
+   "Identity proof",
+   "Address proof"
+  ],
+  "steps": [
+   "Check availability",
+   "Book a branch visit",
+   "Sign the agreement"
+  ],
+  "risk": "medium",
+  "assistant_level": "guide",
+  "description": "A locker keeps jewellery and papers safe inside the bank vault.",
+  "how_it_works": "You request a locker, the branch confirms availability, and you sign an agreement and pay yearly rent."
+ },
+ {
+  "id": "mobile_banking",
+  "name": "Set up mobile banking",
+  "category": "digital_other",
+  "channel": "online",
+  "documents": [
+   "Registered mobile",
+   "Debit card"
+  ],
+  "steps": [
+   "Download the official app",
+   "Register with OTP",
+   "Set a login PIN"
+  ],
+  "risk": "low",
+  "assistant_level": "guide",
+  "description": "Mobile banking lets you check balances and pay from your phone.",
+  "how_it_works": "You install the official app, register with an OTP sent to your mobile, and set a login PIN."
+ },
+ {
+  "id": "insurance_info",
+  "name": "Learn about insurance",
+  "category": "digital_other",
+  "channel": "info",
+  "documents": [],
+  "steps": [
+   "Learn the basics",
+   "Compare plan types"
+  ],
+  "risk": "low",
+  "assistant_level": "explain",
+  "description": "Insurance pays out when a covered loss happens.",
+  "how_it_works": "You pay a premium. The insurer pays the claim as per the policy terms."
+ },
+ {
+  "id": "mutual_fund_info",
+  "name": "Learn about mutual funds and demat",
+  "category": "digital_other",
+  "channel": "info",
+  "documents": [],
+  "steps": [
+   "Learn the basics",
+   "Understand the risks"
+  ],
+  "risk": "low",
+  "assistant_level": "explain",
+  "description": "Mutual funds pool money from many people to invest in markets, and a demat account holds shares.",
+  "how_it_works": "You complete KYC, choose a fund or open a demat account, and invest. Returns are not guaranteed."
+ },
+ {
+  "id": "file_complaint",
+  "name": "File a complaint",
+  "category": "support",
+  "channel": "online",
+  "documents": [],
+  "steps": [
+   "Describe the issue",
+   "Attach details",
+   "Get a ticket number and track it"
+  ],
+  "risk": "medium",
+  "assistant_level": "act",
+  "description": "A complaint tells the bank about a problem you want fixed.",
+  "how_it_works": "You describe the issue and get a ticket number. The bank must respond within its stated time and can escalate if unresolved."
+ }
+]

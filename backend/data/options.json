@@ -1,0 +1,60 @@
+{
+ "user_types": [
+  "student",
+  "working_adult",
+  "senior_citizen",
+  "person_with_disability"
+ ],
+ "account_types": [
+  "student",
+  "regular_savings",
+  "salary",
+  "current",
+  "senior_citizen",
+  "fixed_deposit",
+  "time_deposit",
+  "recurring_deposit",
+  "specialised"
+ ],
+ "study_levels": [
+  "diploma",
+  "undergraduate",
+  "postgraduate"
+ ],
+ "disability_types": [
+  "visual",
+  "hearing",
+  "locomotor",
+  "speech",
+  "intellectual",
+  "multiple"
+ ],
+ "areas": [
+  "rural",
+  "urban"
+ ],
+ "purposes": [
+  "find_loan",
+  "open_account",
+  "update_details",
+  "learn_banking",
+  "check_balance",
+  "form_help",
+  "manage_card"
+ ],
+ "segments": [
+  "student",
+  "adult",
+  "senior",
+  "business",
+  "agriculture",
+  "disability"
+ ],
+ "reasons": [
+  "too_complicated",
+  "wrong_answer",
+  "wrong_language",
+  "did_not_understand",
+  "incomplete_answer"
+ ]
+}

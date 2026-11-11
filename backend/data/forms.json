@@ -1,0 +1,182 @@
+[
+ {
+  "id": "address_change",
+  "title": "Address change request",
+  "fields": [
+   {
+    "key": "full_name",
+    "label": "Full name",
+    "required": true
+   },
+   {
+    "key": "account_number",
+    "label": "Account number",
+    "required": true
+   },
+   {
+    "key": "old_address",
+    "label": "Old address",
+    "required": true
+   },
+   {
+    "key": "new_address",
+    "label": "New address",
+    "required": true
+   },
+   {
+    "key": "address_proof",
+    "label": "Address proof document",
+    "required": true
+   },
+   {
+    "key": "mobile",
+    "label": "Mobile number",
+    "required": false
+   }
+  ]
+ },
+ {
+  "id": "mobile_update",
+  "title": "Mobile number update request",
+  "fields": [
+   {
+    "key": "full_name",
+    "label": "Full name",
+    "required": true
+   },
+   {
+    "key": "account_number",
+    "label": "Account number",
+    "required": true
+   },
+   {
+    "key": "old_mobile",
+    "label": "Old mobile number",
+    "required": true
+   },
+   {
+    "key": "new_mobile",
+    "label": "New mobile number",
+    "required": true
+   }
+  ]
+ },
+ {
+  "id": "pan_link",
+  "title": "PAN linking request",
+  "fields": [
+   {
+    "key": "full_name",
+    "label": "Full name",
+    "required": true
+   },
+   {
+    "key": "account_number",
+    "label": "Account number",
+    "required": true
+   },
+   {
+    "key": "pan_number",
+    "label": "PAN number",
+    "required": true
+   },
+   {
+    "key": "mobile",
+    "label": "Mobile number",
+    "required": false
+   }
+  ]
+ },
+ {
+  "id": "kyc_update",
+  "title": "KYC update form",
+  "fields": [
+   {
+    "key": "full_name",
+    "label": "Full name",
+    "required": true
+   },
+   {
+    "key": "date_of_birth",
+    "label": "Date of birth",
+    "required": true
+   },
+   {
+    "key": "address",
+    "label": "Current address",
+    "required": true
+   },
+   {
+    "key": "mobile",
+    "label": "Mobile number",
+    "required": true
+   },
+   {
+    "key": "email",
+    "label": "Email address",
+    "required": false
+   },
+   {
+    "key": "id_proof",
+    "label": "ID proof document",
+    "required": true
+   }
+  ]
+ },
+ {
+  "id": "open_account",
+  "title": "Savings account opening form",
+  "fields": [
+   {
+    "key": "full_name",
+    "label": "Full name",
+    "required": true
+   },
+   {
+    "key": "father_or_spouse_name",
+    "label": "Father or spouse name",
+    "required": true
+   },
+   {
+    "key": "date_of_birth",
+    "label": "Date of birth",
+    "required": true
+   },
+   {
+    "key": "gender",
+    "label": "Gender",
+    "required": false
+   },
+   {
+    "key": "address",
+    "label": "Address",
+    "required": true
+   },
+   {
+    "key": "mobile",
+    "label": "Mobile number",
+    "required": true
+   },
+   {
+    "key": "email",
+    "label": "Email address",
+    "required": false
+   },
+   {
+    "key": "occupation",
+    "label": "Occupation",
+    "required": true
+   },
+   {
+    "key": "nominee_name",
+    "label": "Nominee name",
+    "required": true
+   },
+   {
+    "key": "nominee_relation",
+    "label": "Nominee relation",
+    "required": true
+   }
+  ]
+ }
+]
