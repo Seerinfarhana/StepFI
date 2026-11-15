@@ -7,7 +7,7 @@ HOW TO USE THIS FILE
 -->
 
 <p align="center">
-  <img src="docs/banner.svg" alt="StepFI: your bank, in your language" width="100%">
+  <img src="Internal storage/Download/ banner.svg" alt="StepFI: your bank, in your language" width="100%">
 </p>
 
 <p align="center">
