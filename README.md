@@ -271,7 +271,3 @@ Seerin Farhana S M · Keerthika S · Sri Sairam Engineering College, Chennai
 
 1. [Title, authors, year of the self-help group loan recommendation paper](https://www.researchgate.net/publication/392246265_AI-Powered_Loan_Recommendations_for_Self-Help_Groups_Enhancing_Financial_Inclusion_Through_Machine_Learning)
 2. [Title, authors, year of the IEEE paper](https://ieeexplore.ieee.org/document/10128582)
-
-## License
-
-[Add a license, for example MIT]
